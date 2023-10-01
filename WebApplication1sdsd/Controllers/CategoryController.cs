@@ -78,7 +78,7 @@ namespace WebApplication1sdsd.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
-                TempData["Success"] = "Category edited succesfully!";
+                TempData["Success"] = "Category Edited succesfully!";
                 return RedirectToAction("Index", "Category");
 
             }
