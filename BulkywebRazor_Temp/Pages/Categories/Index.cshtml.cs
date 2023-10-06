@@ -15,7 +15,7 @@ namespace BulkywebRazor_Temp.Pages.Categories
         }
         public void OnGet()
         {
-            CategoryList =_db.Categories.ToList();
+            CategoryList =_db.Categories.ToList();  
         }
     }
 }

@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication1sdsd.Data;
-using WebApplication1sdsd.Models;
+﻿using Bulky.Models;
+using Microsoft.AspNetCore.Mvc;
+using Bulky.DataAccess.Data;
+
 
 namespace WebApplication1sdsd.Controllers
 {
